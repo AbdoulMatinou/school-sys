@@ -4,7 +4,7 @@ class Provider{
     private $host='localhost';
     private $dbName="school_sys";
     private $user="root";
-    private $password="root";
+    private $password="";
 
 
     public function getconnection(){

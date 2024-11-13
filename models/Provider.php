@@ -3,11 +3,9 @@
 class Provider{
     private $host='localhost';
     private $dbName="school_sys";
-    private $user="root";
-    private $password="";
+    private $user="predator";
+    private $password="predator2024";
 
-
-    
     public function getconnection(){
         $con=new PDO("mysql:host=$this->host;dbname=$this->dbName", $this->user,  $this->password);
         if($con){
